@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    gap: 5px;
+
+    height: 50px;
+}
+
+footer {
+    height: 50px;
+
+    background-color: saddlebrown;
+}
+
+main {
+    flex-grow: 1;
+
+    display: flex;
+    gap: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#post {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#side-title {
+    width: 50%;
+    background-color: gold;
+}
+
+#side-navs {
+    display: flex;
+    gap: 5px;
+
+    flex-grow: 1;
+}
+
+#sidebar {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sidebar-bar {
+    background-color: orange;
+}
+
+#sidebar-stuffs {
+    background-color: mediumorchid;
+}
+
+#sidebar-ads {
+    background-color: green;
+}
+
+#sidebar > * {
+    flex-grow: 1;
+}
+
+#post-title {
+    height: 15%;
+    background-color: cornflowerblue;
+}
+
+#post-info-wrapper {
+    display: flex;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+#post-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    flex-grow: 1;
+}
+
+#post-info-content {
+    background-color: darkgray;
+
+    height: 40%;
+}
+
+#post-info-image {
+    background-color: yellow;
+
+    height: 60%;
+}
+
+#post-meta {
+    width: 20%;
+    background-color: palegreen;
+}
+
+#side-navs > * {
+    flex-grow: 1;
+    background-color: pink;
+}
