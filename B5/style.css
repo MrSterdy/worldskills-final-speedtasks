@@ -1,0 +1,25 @@
+/*CSS RESET*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*PUT YOUR CSS CODE HERE*/
+
+#block {
+	width: 150px;
+	height: 150px;
+
+	background-color: yellow;
+
+	animation: transformAnimation 2s ease-in-out infinite;
+}
+
+@keyframes transformAnimation {
+	50% {
+		border-radius: 100%;
+		background-color: red;
+		transform: scale(50%);
+	}
+}
