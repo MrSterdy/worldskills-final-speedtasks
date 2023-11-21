@@ -1,0 +1,35 @@
+/*CSS RESET*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*PUT YOUR CSS CODE HERE*/
+
+#block {
+	width: 100px;
+	height: 100px;
+
+	background-color: red;
+
+	animation: anim 2s linear infinite;
+
+	border-style: solid;
+	border-color: transparent;
+
+	display: inline-block;
+}
+
+@keyframes anim {
+	50% {
+		width: 0;
+		height: 0;
+		border: 0 solid transparent;
+		border-radius: 0;
+		border-right-width: 50px;
+		border-left-width: 50px;
+		border-bottom: 100px solid red;
+		background-color: transparent;
+	}
+}
