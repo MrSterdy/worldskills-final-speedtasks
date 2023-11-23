@@ -29,7 +29,6 @@ function cutImageUp() {
         for (let width = 0; width < totalX; width++) {
             const dataUrl = imagePieces[height * totalX + width];
             const img = document.createElement("img");
-            img.style.animationDelay = `${height * totalX + width}s`;
             img.src = dataUrl;
             collection.append(img);
         }

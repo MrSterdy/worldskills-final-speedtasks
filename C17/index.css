@@ -16,11 +16,9 @@ img {
 
     height: 100px;
 
-    animation: disappear linear 1s forwards;
+    transition: 300ms;
 }
 
-@keyframes disappear {
-    100% {
-        opacity: 0;
-    }
+img:hover {
+    opacity: 0;
 }
